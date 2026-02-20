@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic+Guides&family=Playwrite+NZ+Basic:wght@100..400&display=swap");
+
+:root {
+  --special-color: #1aff00;
+  background-color: rgb(201, 204, 201);
+}
+
+body {
+  box-sizing: border-box;
+  width: 99vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: full;
+  height: auto;
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.primary-font {
+  color: #08660d; 
+  font-family: "Playwrite NZ Basic", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+}
+.secondary-font {
+  color: #10db1a; 
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+.navbar {
+  position: fixed; /* helps keep the navbar stick to top*/
+  top: 0; /* helps keep the navbar stick to top*/
+  z-index: 999; /* Keeps navbar above other content */
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background: rgba(173, 170, 162, 0.564); /* Optional background */
+  border-radius: 5px;
+  margin: 1px auto;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2); /* h v blur spread color */
+}
+
+.special-color {
+  color: #2ed948;
+}
+
+.horizontal-menu {
+  display: flex; /* Aligns items in a row */
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}

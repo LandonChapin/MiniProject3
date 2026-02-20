@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.Title {
+    color: #08660d; 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+}
+
+.Text1 {
+    color:rgb(193, 244, 192);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14;
+}
+
+.secondary-font {
+  
+  font-size: 1.1rem;
+  color: #f8e3f6;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 100px;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgb(141, 139, 136);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+}
